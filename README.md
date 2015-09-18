@@ -1,3 +1,3 @@
 # syllabus
 
-This is the repository for the class syllabus.
+This is the repository for the class.
