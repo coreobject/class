@@ -175,6 +175,7 @@ Two LEDs. One blinks in a steady pattern. The other toggles on/off with a button
 + Analog out - _Pulse Width Modulation_
 + Fade an LED
 + Counting variables
++ Analog in
 
 **Assingment:**
 With the code and circuit we have built so far choose behavior(s) you would like to program. Choose a relatively complex behavior and a much simpler version(s) of it. Write your choices at the top of your blog post. Do not change them after you begin.
@@ -190,6 +191,8 @@ Examples:
 + Fade LED based on knob position
 	+ if it goes all the way up, the other LED blinks 3 times.
 + LED fades up and down but max brightness is determined by the knob
+
+The _Map()_ function may be helpful.
 
 **Read the Arduino reference**
 
