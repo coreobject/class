@@ -8,19 +8,6 @@ Thursday 3:50 - 6:30, 6 East 16th Street 1109
 _churia@newschool.edu_
 Office hours by appointment
 
-[ Course Description ][description]
-[ Themes ][themes]
-[ Course Outline ][outline]
-[ Learning Outcomes ][outcomes]
-[ Detailed Schedule ][schedule]
-[ Deliverables ][deliverables]
-[ Projects ][projects]
-[ Bill of Materials ][bom]
-[ Resources ][resources]
-[ Assessment Criteria ][assessment]
-[ Grade Descriptions ][grade]
-[ Policies ][policies]
-
 ## COURSE DESCRIPTION [description]
 This course serves as a complement to Core Studio: DT1 ­ Objects | Creative Technology. The assignments are built to work in tandem, support and supplement the projects students are developing in the studio class. The lab is designed around a series of learning workshops that teach beginning and intermediate interaction design and code fundamentals through a hands­on engagement with physical computing, hardware, and data collection/representation tools. These workshops include soldering, reading and building schematics, using and making sensors, prototyping using a breadboard, and creating and customizing PCBs.
 
@@ -96,23 +83,6 @@ This course serves as a complement to Core Studio: DT1 ­ Objects | Creative Tec
 5. Build a final interactive project that integrates varying medium and sensory themes of the class towards their own creative practice.
 
 ## DETAILED SCHEDULE [schedule]
-
-[ Week 1 ][01]
-[ Week 2 ][02]
-[ Week 3 ][03]
-[ Week 4 ][04]
-[ Week 5 ][05]
-[ Week 6 ][06]
-[ Week 7 ][07]
-[ Week 8 ][08]
-[ Week 9 ][09]
-[ Week 10 ][10]
-[ Week 11 ][11]
-[ Week 12 ][12]
-[ Week 13 ][13]
-[ Week 14 ][14]
-[ Week 15 ][15]
-[ Week 16 ][16]
 
 ### 01-1 09/01 [01]
 
@@ -207,18 +177,18 @@ Two LEDs. One blinks in a steady pattern. The other toggles on/off with a button
 + Counting variables
 
 **Assingment:**
-With the code and circuit we have built so far choose behavior(s) you would like to program. Choose a relatively complex behavior and a much simpler version(s) of it. Write your choices at the top of your blog post. Do not change them after you begin.  
+With the code and circuit we have built so far choose behavior(s) you would like to program. Choose a relatively complex behavior and a much simpler version(s) of it. Write your choices at the top of your blog post. Do not change them after you begin.
 
 Examples:
 
-+ LED turns on in the dark and off on the light. 
++ LED turns on in the dark and off on the light.
 	+ It could fade on and off
 	+ it could stay on for a minute in the day and then turn off until the next time it light and then dark again.
-+  The button could start a timer which makes the LED blink 10 times when it goes off. 
++  The button could start a timer which makes the LED blink 10 times when it goes off.
 	+  you could set the time with the pot
-+ LED turns on in the dark but how dark is determined by the knob. 
++ LED turns on in the dark but how dark is determined by the knob.
 + Fade LED based on knob position
-	+ if it goes all the way up, the other LED blinks 3 times. 
+	+ if it goes all the way up, the other LED blinks 3 times.
 + LED fades up and down but max brightness is determined by the knob
 
 **Read the Arduino reference**
