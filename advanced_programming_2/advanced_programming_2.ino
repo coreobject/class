@@ -12,12 +12,15 @@ const long interval = 10;
 // LED fading variables
 boolean fadeUp = true;
 int fadeLevel = 0;
+
 //LED blinking variables
 int ledState = LOW;
+
 //button variables
 int buttonState = 0;
 int prevButtonState = LOW;
 boolean pressed = false;
+
 //analog sensor variables
 int lightVar = 0;
 int potVar = 0;
@@ -30,12 +33,14 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
   pinMode(fadeLed, OUTPUT);
+
   Serial.begin(9600);
 }
 
 void loop() {
-  unsigned long currentMillis = millis();
+  unsigned long currentMillis = millis(); // What time is it?
 
+  // Check the button and if it was just pressed, advanced stateVar
   buttonState = digitalRead(buttonPin);
   if (buttonState == HIGH && prevButtonState == LOW) {
     delay(5);
@@ -44,10 +49,9 @@ void loop() {
   }
   prevButtonState = buttonState;
 
-
+  // Do differnt things depending on stateVar
   switch (stateVar) {
     case 0:
-      Serial.println("night light mode");
       //check sensors
       potVar = analogRead(potPin);
       lightVar = analogRead(lightPin);
@@ -71,13 +75,14 @@ void loop() {
       }
       break;
     case 1:
+      Serial.println("projector mode");
       fadeLevel = 0;
       stateVar = 2;
     case 2:
       ledState = HIGH;
-      Serial.println("projector mode");
       break;
     case 3:
+      Serial.println("night light mode");
       ledState = LOW;
       stateVar = 0;
       break;
