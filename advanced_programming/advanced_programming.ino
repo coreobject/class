@@ -26,46 +26,28 @@ void setup() {
 }
 
 void loop() {
-  // read the state of the pushbutton value:
-  buttonState = digitalRead(buttonPin);
 
-  if (buttonState == HIGH && pressed == false ) { //if it is pressed now but was not pressed last loop
-    delay(5);
-  //  Serial.println("BANG!");
-    // toggle lED:
-    if (ledState == LOW) {
-      ledState = HIGH;
-    }
-    else {
-      ledState = LOW;
-    }
-    pressed = true; //change this so we know the button was pressed
-  }
-
-  if (buttonState == LOW && pressed == true ) { //if the button is no longer pressed but was pressed last loop
-    delay(5);
-    pressed = false; //change this so we know it is no longer pressed
-  }
-
-//code for fading LED up and down
-  if (fadeUp == true) { //LED is fading up
-    fadeLevel++;
-    if (fadeLevel == 25500) { //LED has reached the top
-      fadeUp = false; // LED is fading down
-    }
-  } else {
-    fadeLevel--;
-    if (fadeLevel == 0) { // fadeLevel has reached the bottom
-      fadeUp = true; // so start fading up
-    }
-  }
-
-//check sensors
+  //check sensors
   potVar = analogRead(potPin);
   lightVar = analogRead(lightPin);
 
-//write to the LED pins
-//Serial.println(fadeLevel/4);
-   digitalWrite(ledPin, ledState);
-   analogWrite(fadeLed,fadeLevel/100);
+//logic
+  if ( lightVar <= 600 ) {
+    fadeUp = true;
+  } else {
+    fadeUp = false;
+  }
+
+//display
+  if (fadeUp == true) {
+    if (fadeLevel != 255) fadeLevel++;
+  } else {
+    if (fadeLevel != 0) fadeLevel--;
+  }
+
+  //write to the LED pins
+  digitalWrite(ledPin, ledState);
+  analogWrite(fadeLed, fadeLevel);
+
+//Serial.println(lightVar);
 }
