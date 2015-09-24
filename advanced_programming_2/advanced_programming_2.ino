@@ -35,11 +35,18 @@ void setup() {
 void loop() {
   unsigned long currentMillis = millis();
 
- buttonState = digitalRead(buttonPin);
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH && prevButtonState == LOW) {
+    delay(5);
+    x = x + 1;
+    if (x >= 3) x = 0;
+  }
+  prevButtonState = buttonState;
+
 
   switch (stateVar) {
     case 0:
-    Serial.println("night light mode");
+      Serial.println("night light mode");
       //check sensors
       potVar = analogRead(potPin);
       lightVar = analogRead(lightPin);
@@ -63,7 +70,7 @@ void loop() {
       }
       break;
     case 1:
-Serial.println("projector mode");
+      Serial.println("projector mode");
       break;
   }
 
@@ -72,5 +79,5 @@ Serial.println("projector mode");
   digitalWrite(ledPin, ledState);
   analogWrite(fadeLed, fadeLevel);
 
-  
+
 }
