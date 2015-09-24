@@ -16,6 +16,7 @@ int fadeLevel = 0;
 int ledState = LOW;
 //button variables
 int buttonState = 0;
+int prevButtonState = LOW;
 boolean pressed = false;
 //analog sensor variables
 int lightVar = 0;
@@ -38,8 +39,8 @@ void loop() {
   buttonState = digitalRead(buttonPin);
   if (buttonState == HIGH && prevButtonState == LOW) {
     delay(5);
-    x = x + 1;
-    if (x >= 3) x = 0;
+    stateVar++;
+    if (stateVar >= 4) stateVar = 0;
   }
   prevButtonState = buttonState;
 
@@ -70,7 +71,15 @@ void loop() {
       }
       break;
     case 1:
+      fadeLevel = 0;
+      stateVar = 2;
+    case 2:
+      ledState = HIGH;
       Serial.println("projector mode");
+      break;
+    case 3:
+      ledState = LOW;
+      stateVar = 0;
       break;
   }
 
