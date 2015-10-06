@@ -205,18 +205,17 @@ The _Map()_ function may be helpful.
 + Analog in
 
 **Assignment:**
-Create a circuit with 2 light sensors that activate LEDs at differing levels.
+
++ Add pins to the LED meter. [coreobject/ledmeter] (https://github.com/coreobject/ledmeter)
++ For Loops and Arrays of LEDs. [coreobject/pwm-array] (https://github.com/coreobject/pwm-array)
 
 ### 05-1: 09/29 [05]
+
+**Laser Cutter Lab Orientation.**
 
 + Introducing the Emerging Object Night Light
 + Designing behavior
 
-**Assignment:**
-
-1. Begin your behavior diagram
-2. Create a _LED Driver / photocell circuit_
-3. Program a behavior.
 
 ### 05-2: 10/01
 
@@ -224,19 +223,19 @@ Create a circuit with 2 light sensors that activate LEDs at differing levels.
 + Complex behavior
 + Feedback
 
-**Assignment:**
-Add your _Capacitive Touch Sensor_ to your circuit and program.
-
 ### 06-1: 10/06 [06]
 
-Creating you file for laser cutting
+Using libraries and the CapSense library.
+Creating functions and organizing your code.
+Creating you file for laser cutting.
 
 **Assignment:**
-Create your file
+1. Begin your behavior diagram
+2. Get Emerging Object Parts
+3. Create your file
 
 ### 06-2: 10/08
 
-_Laser cutting session_
 
 **Assignment:**
 Cut your acrylic
