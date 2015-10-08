@@ -408,7 +408,7 @@ Students will create a night light that has a standard form and input/output. Ba
 ![minibreadboard](minibreadboard.jpg)
 ![image] (acryliccement.jpg)
 
-### Project 2: Toy Autopsy Report
+### Project 2: Toy Autopsy Report // This project may be canceled.
 
 Purchase a toy and generate an autopsy report. What is in it? How does it work?
 
