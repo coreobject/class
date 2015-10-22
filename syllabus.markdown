@@ -420,9 +420,9 @@ In teams of two, choose a peripheral device or advanced topic and create instruc
 
 Suggestions:
 
-1. 8x8 LED matrix and Max7219 LED driver [Arduino Playground - MAX72XXHardware] (http://playground.arduino.cc/Main/MAX72XXHardware)
+1. 8x8 LED matrix and Max7219/7221 LED driver [Arduino Playground - MAX72XXHardware] (http://playground.arduino.cc/Main/MAX72XXHardware)
 2. LCD Display
-3. Audio device
+3. ISD 1416P Sound Chip [ISD1416P Nuvoton Technology Corporation of America | ISD1416P-ND | DigiKey] (http://www.digikey.com/product-detail/en/ISD1416P/ISD1416P-ND/251550)
 4. [VoiceShield] (http://www.spikenzielabs.com/Catalog/index.php?main_page=product_info&cPath=27&products_id=172) or
 5. [Adafruit Wave Shield for Arduino Kit] (http://www.adafruit.com/products/94)
 6. Piezo knock sensor
@@ -435,6 +435,10 @@ Suggestions:
 13. [Adafruit Bluefruit LE Micro - Bluetooth Lo Energy + ATmega32u4] (http://www.adafruit.com/products/2661)
 14. [Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE)] (https://www.adafruit.com/product/2633)
 15. Real Time Clock IC
+16. MM74HC595N 8-bit shift register [MM74HC595N Fairchild Semiconductor | Mouser] (http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/MM74HC595N
+17. SN7404N Hex Inverter [SN7404N Texas Instruments | Mouser] (http://www.mouser.com/ProductDetail/Texas-Instruments/SN7404N/?qs=0le1rQK8zxrjs7v1lwXIdQ%3D%3D)
+
+
 
 ### Project 4: Tamagotchi II +ALPHA virtual pet
 
