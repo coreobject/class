@@ -255,16 +255,18 @@ User testing
 
  Work session
 
-**Assignment:**
-Choose and order a device to connect to your Arduino which uses Serial Peripheral Interface (SPI)
-
 ### 08-2: 10/22
 
-**DUE: EMERGING OBJECT NIGHTLIGHT**
-Critique
+**DUE: EMERGING OBJECT NIGHTLIGHT** // Changed to 10/29
+
++ Review Sketchup
++ Assign _Peripheral Device Research Project_ subject matter
++ Review night lights
++ Review night light code
 
 **Assignment:**
-Toy Autopsy
++ Begin _Peripheral Device Research Project_
++ Blog update on night light progress
 
 ### 09-1: 10/27 [09]
 
