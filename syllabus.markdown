@@ -8,6 +8,8 @@ Thursday 3:50 - 6:30, 6 East 16th Street 1109
 _churia@newschool.edu_
 Office hours by appointment
 
+Wc edit
+
 ## COURSE DESCRIPTION [description]
 This course serves as a complement to Core Studio: DT1 ­ Objects | Creative Technology. The assignments are built to work in tandem, support and supplement the projects students are developing in the studio class. The lab is designed around a series of learning workshops that teach beginning and intermediate interaction design and code fundamentals through a hands­on engagement with physical computing, hardware, and data collection/representation tools. These workshops include soldering, reading and building schematics, using and making sensors, prototyping using a breadboard, and creating and customizing PCBs.
 
