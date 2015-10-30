@@ -272,21 +272,21 @@ User testing
 
 ### 09-1: 10/27 [09]
 
-Serial communication with SPI
+**DUE: EMERGING OBJECT NIGHTLIGHT**
+    Demo in class. Blog post in a week.
+
+Begin: Mini Virtual Pet Project
 
 ### 09-2: 10/29
 
-More _Control Structures_
-
-+ For
-+ Switch case
-+ Do... while
-
-**DUE: TOY AUTOPSY**
+Soldering workshop.
+    Build your own Arduino on a perfboard.
 
 ### 10-1: 11/03 [10]
 
 Peripheral device working session
+
+**Due: EMERGING OBJECT NIGHT LIGHT BLOG POST**
 
 + Arithmetic Operators
 + Comparison Operators
@@ -415,6 +415,19 @@ Students will create a night light that has a standard form and input/output. Ba
 ### Project 2: Toy Autopsy Report // This project may be canceled.
 
 Purchase a toy and generate an autopsy report. What is in it? How does it work?
+
+### Project 2: MINI VIRTUAL PET
+
+Create a small Arduino project that is a version of a virtual pet.
+
++ Choose the inputs (buttons, sensors) and output (LED, LCD, Speaker).
++ Outline the behavior.
++ Sketch the circuit.
++ Create a blog post showing your work so far.
++ Create a prototype on a solderless breadboard.
++ Solder the completed circuit onto a perfboard.
++ Demo the behavior for the class.
++ Create a blog post.
 
 ### Project 3: Peripheral Device Research
 
