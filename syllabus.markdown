@@ -281,6 +281,7 @@ Begin: Mini Virtual Pet Project
 
 Soldering workshop.
     Build your own Arduino on a perfboard.
+    File: _buildYourOwnArduino.markdown
 
 ### 10-1: 11/03 [10]
 
@@ -294,40 +295,38 @@ Peripheral device working session
 
 ### 10-2: 11/05
 
-_Peripheral Device Research_ working session
+_Mini Virtual Pet_ working session
+Due: Working circuit on a solderless breadboard
 
 ### 11-1: 11/10 [11]
 
-DUE: PERIPHERAL DEVICE RESEARCH
-Class presentations
+_Mini Virtual Pet_ working session
 
 ### 11-2: 11/12
 
-Introducing _Tamagotchi II +alpha_
-Managing the big project
-
-**Assignment:**
-Design your virtual pet
 
 ### 12-1: 11/17 [12]
 
-_Data Types_
+**DUE: @6:00 Mini Virtual Pet**
+Give your pet to a classmate with written instructions and observe.
 
-+ boolean
-+ char
-+ byte
-+ int
-+ word
-+ long
-+ string
+Introducing _Tamagotchi II +alpha_
 
-Working with _Arrays_
+**ASSIGNMENT:**
 
-**Assignment:**
-Design your circuit
++ Design your virtual pet blog post. Due 12/1
++ Build your virtual pet circuit on a broadboard
 
 ### 12-2: 11/19
 
+Managing the big project
+
+Overview of _Tamagotchi II +alpha_
+
++ Supplies
+
+**Assignment:**
+Design your virtual pet
 Turning your circuit into printed circuit board.
 
 **Assignment:**
@@ -335,17 +334,17 @@ Prototype your circuit
 
 ### 13-1: 12/01 [13]
 
-User Experience Design
+Work Session:
+_Peripheral Device Research_
+_Tamagotchi_
 
-**Assignment:**
-Programming phase 1
+Demo:
+Printed Circuit Board
 
 ### 13-2: 12/03
 
-Work session
-
-**Assignment:**
-Programming phase 2
+**DUE: Peripheral Device Research**
+Give a demo of your peripheral device.
 
 ### 14-1: 12/08 [14]
 
@@ -412,22 +411,27 @@ Students will create a night light that has a standard form and input/output. Ba
 ![minibreadboard](minibreadboard.jpg)
 ![image] (acryliccement.jpg)
 
-### Project 2: Toy Autopsy Report // This project may be canceled.
+### [Canceled] Project 2: Toy Autopsy Report // This project may be canceled.
 
 Purchase a toy and generate an autopsy report. What is in it? How does it work?
 
 ### Project 2: MINI VIRTUAL PET
 
 Create a small Arduino project that is a version of a virtual pet.
+This assignment is open to interpretation but the final form will be a homemade Arduino and some additional components soldered on to a perfboard.
 
-+ Choose the inputs (buttons, sensors) and output (LED, LCD, Speaker).
-+ Outline the behavior.
-+ Sketch the circuit.
-+ Create a blog post showing your work so far.
-+ Create a prototype on a solderless breadboard.
-+ Solder the completed circuit onto a perfboard.
-+ Demo the behavior for the class.
-+ Create a blog post.
+See the file _buildYourOwnArdino.markdown_
+
+Process outline:
+
+#### Choose the inputs (buttons, sensors) and output (LED, LCD, Speaker).
+#### Outline the behavior.
+#### Sketch the circuit.
+#### Create a blog post showing your work so far.
+#### Create a prototype on a solderless breadboard.
+#### Solder the completed circuit onto a perfboard.
+#### Demo the behavior for the class.
+#### Create a blog post.
 
 ### Project 3: Peripheral Device Research
 
