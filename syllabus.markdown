@@ -420,18 +420,18 @@ Purchase a toy and generate an autopsy report. What is in it? How does it work?
 Create a small Arduino project that is a version of a virtual pet.
 This assignment is open to interpretation but the final form will be a homemade Arduino and some additional components soldered on to a perfboard.
 
-See the file _buildYourOwnArdino.markdown_
+See the file _buildYourOwnArdino.markdown_ [class/buildYourOwnArduino.markdown at master · coreobject/class] (https://github.com/coreobject/class/blob/master/buildYourOwnArduino.markdown)
 
 Process outline:
 
-#### Choose the inputs (buttons, sensors) and output (LED, LCD, Speaker).
-#### Outline the behavior.
-#### Sketch the circuit.
-#### Create a blog post showing your work so far.
-#### Create a prototype on a solderless breadboard.
-#### Solder the completed circuit onto a perfboard.
-#### Demo the behavior for the class.
-#### Create a blog post.
++ choose the inputs (buttons, sensors) and output (led, lcd, speaker).
++ outline the behavior.
++ sketch the circuit.
++ create a blog post showing your work so far.
++ create a prototype on a solderless breadboard.
++ solder the completed circuit onto a perfboard.
++ demo the behavior for the class.
++ create a blog post.
 
 ### Project 3: Peripheral Device Research
 
