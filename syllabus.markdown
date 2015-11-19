@@ -341,10 +341,12 @@ _Tamagotchi_
 Demo:
 Printed Circuit Board
 
+Due:
+Design your Object
+Create a Bill of Materials
 ### 13-2: 12/03
 
 **DUE: Peripheral Device Research**
-Give a demo of your peripheral device.
 
 ### 14-1: 12/08 [14]
 
@@ -462,6 +464,32 @@ Suggestions:
 ### Project 4: Tamagotchi II +ALPHA virtual pet
 
 Create a version of a virtual pet. It should use only material that was covered in class and be able to fit in to a 9” cube.
+
+#### Process
+
+**Design your object**
++ Physical form
++ Interaction
++ Circuit
+
+**Create you Bill of Materials**
+A list of all of the parts you will need for the form and the circuit. Links to where they can be sourced and the datasheet.
+
+**Aquire parts**
+We will setup a class buy but you will need to be ready.
+
+**Prototype the circuit on a solderless breadboard**
+
+**User test**
+
+**Layout your pcb using eagle/illustrator**
+
+**Burn, drill, and solder your PCB**
+
+**Create your enclosure**
+
+**User test**
+
 
 ## BILL OF MATERIALS (BOM) [bom]
 
