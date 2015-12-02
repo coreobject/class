@@ -27,7 +27,6 @@ We will setup a class buy but you will need to be ready.
 **User test**
 
 ## Links
-
     + [Parts order spreadsheet] (https://docs.google.com/a/newschool.edu/spreadsheets/d/1Q72Zl2Q_l7k_VPFKeSEfTDY60VBAR58SOEwE-0UUfLw/edit?usp=sharing)
     + [CadSoft EAGLE PCB Design Software|Support, Shop, Tutorials] (http://www.cadsoft.de/)
     + [gEDA roject’s Homepage] (http://www.geda-project.org/)
