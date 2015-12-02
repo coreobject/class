@@ -17,6 +17,14 @@ We will setup a class buy but you will need to be ready.
 **User test**
 
 **Layout your pcb using eagle/illustrator**
+I have created a file with the Arduino and the power supply.
+Steps:
+
+1. Open the file in Eagle.
+2. Add your parts to the schematic view.
+3. Position your parts in board view.
+4. Create the traces either manually or autoroute or both.
+
 + [CadSoft EAGLE PCB Design Software|Support, Shop, Tutorials] (http://www.cadsoft.de/)
 + [Cadsoft EagleCad Tutorial Lesson 1 - YouTube] (https://www.youtube.com/watch?v=qG0O9LKH-_E&list=PLB4C63828A483E756)
 
@@ -32,4 +40,7 @@ We will setup a class buy but you will need to be ready.
 + [CadSoft EAGLE PCB Design Software|Support, Shop, Tutorials] (http://www.cadsoft.de/)
 + [gEDA roject’s Homepage] (http://www.geda-project.org/)
 + [Fritg Fritzing] (http://fritzing.org/home/)
++ [Fritzing Project – SimpleDuino. Single sided Arduino clone] (http://fritzing.org/projects/simpleduino-single-sided-arduino-clone)
+[Fritzing Project – Barebones Arduino] (http://fritzing.org/projects/barebones-arduino)
+
 
