@@ -42,5 +42,4 @@ Steps:
 + [Fritg Fritzing] (http://fritzing.org/home/)
 + [Fritzing Project – SimpleDuino. Single sided Arduino clone] (http://fritzing.org/projects/simpleduino-single-sided-arduino-clone)
 [Fritzing Project – Barebones Arduino] (http://fritzing.org/projects/barebones-arduino)
-
-
++ [Arduino and ATMega Pinout Diagrams | ArduinoExperts: Arduino Developers + Arduino Jobs] (http://jobs.arduinoexperts.com/2013/03/02/arduino-atmega-pinout-diagrams/)
