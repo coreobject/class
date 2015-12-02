@@ -483,6 +483,8 @@ We will setup a class buy but you will need to be ready.
 **User test**
 
 **Layout your pcb using eagle/illustrator**
++ [CadSoft EAGLE PCB Design Software|Support, Shop, Tutorials] (http://www.cadsoft.de/)
++ [Cadsoft EagleCad Tutorial Lesson 1 - YouTube] (https://www.youtube.com/watch?v=qG0O9LKH-_E&list=PLB4C63828A483E756)
 
 **Burn, drill, and solder your PCB**
 
@@ -542,6 +544,9 @@ Class Blog: [Learning Portfolio](http://portfolio.newschool.edu/corelabobject/)
 + [learnSarkle | Sparkle Labs Virtual Hacker Space] (http://learn.sparklelabs.com/)
 + [Arduino - Hoe] (https://www.arduino.cc/)
 + [Arduino - Refrence] (https://www.arduino.cc/en/Reference/HomePage)
++ [CadSoft EAGLE PCB Design Software|Support, Shop, Tutorials] (http://www.cadsoft.de/)
++ [Cadsoft EagleCad Tutorial Lesson 1 - YouTube] (https://www.youtube.com/watch?v=qG0O9LKH-_E&list=PLB4C63828A483E756)
+
 
 ## ASSESSMENT CRITERIA [assessment]
 
