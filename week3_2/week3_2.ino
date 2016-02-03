@@ -3,7 +3,7 @@ const int buttonPin = 2;
 const int ledPin =  12;
 const int fadeLed = 11;
 const int potPin = 0;
-const int lightPin = 1;
+const int lightPin = 14;
 
 // LED fading variables
 boolean fadeUp = true;
@@ -64,8 +64,13 @@ void loop() {
   potVar = analogRead(potPin);
   lightVar = analogRead(lightPin);
 
-//write to the LED pins
-//Serial.println(fadeLevel/4);
-   digitalWrite(ledPin, ledState);
-   analogWrite(fadeLed,fadeLevel/100);
+  if (lightVar > 300) {
+    //write to the LED pins
+    //Serial.println(fadeLevel/4);
+     digitalWrite(ledPin, ledState);
+     analogWrite(fadeLed,fadeLevel/100);
+  } else {
+    digitalWrite(ledPin, LOW);
+    analogWrite(fadeLed, 0);
+  }
 }
